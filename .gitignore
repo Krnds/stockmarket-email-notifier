@@ -1,5 +1,5 @@
-### dotenv ###
-.env
+### property file ###
+*.yml
 
 ### Git ###
 # Created by git for backups. To disable backups in Git:
@@ -102,10 +102,10 @@ fabric.properties
 ### Intellij Patch ###
 # Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
 
-# *.iml
-# modules.xml
-# .idea/misc.xml
-# *.ipr
+*.iml
+modules.xml
+.idea/misc.xml
+*.ipr
 
 # Sonarlint plugin
 # https://plugins.jetbrains.com/plugin/7973-sonarlint
