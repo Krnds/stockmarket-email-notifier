@@ -1,6 +1,7 @@
 # Stock market email notifier 📩🏦
 
 Tired of checking up your index funds ? 📈
+
 This is a straighforward app to send automatic emails about index funds price variations.
 It will send a mail about today's index fund price (max and low) and the minimum price within the last 30 days.
 
@@ -43,7 +44,7 @@ String stockMarketSymbol = "MSFT";
 
 For example if you want to track the `Microsoft Corporation Common Stock`, the symbol is `MSFT`
 
-## 3. API data 🗃️
+## 2. API data 🗃️
 
 The Yahoo finance API returns JSON data like this :
 
@@ -68,7 +69,7 @@ The Yahoo finance API returns JSON data like this :
 
 This app only uses the high, low and date values.
 
-## 4. Future improvements ✨
+## 3. Future improvements ✨
 
 - [ ] make currency dynamic
 - [ ] set up a cron to send automatic emails
