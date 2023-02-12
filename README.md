@@ -69,10 +69,12 @@ The Yahoo finance API returns JSON data like this :
 
 This app only uses the high, low and date values.
 
-## 3. Future improvements ✨
+## 3. Future improvements ideas ✨
 
-- [ ] make currency dynamic
+- [ ] make currency dynamic (search from config file)
 - [ ] set up a cron to send automatic emails
+- [ ] feature : send notification when a stock has a variation of ± X% in Y time
 - [ ] make a dockerfile to facilitate use
-- [ ] set up an email template (Bootsrap email for example)
-- [ ] make a UI
+- [ ] set up an email template (Bootstrap email for example)
+- [ ] make a UI with React ⚛️
+- [ ] make a signal/phone integration ?
