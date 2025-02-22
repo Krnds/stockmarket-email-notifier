@@ -1,0 +1,15 @@
+spring:
+  mail:
+    default-encoding: UTF-8
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    protocol: smtp
+    test-connection: false
+
+app:
+  stock-symbol: AAPL
